@@ -1,0 +1,49 @@
+@media (max-width: 991px) {
+  .main-menu {
+    display: none;
+    position: absolute;
+    background: rgb(250, 238, 238);
+    right: 0;
+    top: 0;
+    width: 140px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 3px rgba(9, 106, 218, 0.1);
+    margin-top: 40px;
+  }
+  .close {
+    color: rgb(207, 4, 190);
+  }
+}
+
+.wrapper-modal {
+  display: none;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: grey;
+  opacity: 0.7;
+}
+
+.modal-window {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  background: honeydew;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.09);
+  border-radius: 10px;
+}
+
+.swiper-container {
+    width: 100%px;
+    height: 100%px;
+    overflow: hidden;
+}
+  
